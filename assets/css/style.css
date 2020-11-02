@@ -30,12 +30,12 @@ p {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+#seo {
     color: #d9dcd6;
 }
 
@@ -48,9 +48,10 @@ p {
 
 .header div ul {
     list-style-type: none;
+    font-size: 20px;
 }
 
-.header div ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -75,6 +76,25 @@ nav a:hover {
     background-position: center;
     transition: filter .5s ease-in-out;
 }
+
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.card img {
+    max-height: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 
 .benefits {
     margin-right: 20px;
